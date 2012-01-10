@@ -50,6 +50,9 @@
 
 #include "TLogging.h"
 
+#include <inttypes.h>
+#include <netinet/in.h>
+
 /**
  * Helper macros to allow function overloading even when using
  * boost::shared_ptr.
